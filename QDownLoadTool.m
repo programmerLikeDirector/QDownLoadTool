@@ -3,7 +3,7 @@
 //  QDownLoadWheel
 //
 //  Created by sure on 2018/3/11.
-//  Copyright © 2018年 qishuo. All rights reserved.
+//  Copyright © 2018年 sure. All rights reserved.
 //
 
 #import "QDownLoadTool.h"
