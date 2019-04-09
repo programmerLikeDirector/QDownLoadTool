@@ -10,12 +10,13 @@ iOS断点续传下载方法（OC）
  filePath:下载文件路径
  fileName:下载文件名
 
-- (instancetype)initWithURL:(NSString *)url Parameter:(DownloadType)para DownloadFilePath:(NSString *)filePath fileName:(NSString *)fileName；
+initWithURL:(NSString *)url Parameter:(DownloadType)para DownloadFilePath:(NSString *)filePath fileName:(NSString *)fileName；
+
 
 开始下载or继续下载
-- (void)downLoadResume;
+downLoadResume;
 暂停下载
-- (void)downLoadSuspend;
+downLoadSuspend;
 取消下载
-- (void)downLoadCancel;
+downLoadCancel;
 
